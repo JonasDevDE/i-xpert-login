@@ -1,0 +1,27 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input, textarea, select {
+    background-color: black;
+    border-radius: 6px;
+    border-width: 0;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    color: white;
+}
+
+input, select {
+    height: 30px;
+    margin: 5px;
+}
+
+textarea {
+    height: 100px;
+    margin: 5px;
+}
+
